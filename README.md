@@ -25,7 +25,7 @@ The game design and models are not my own creation, the components and terrain a
 
 * [Key Card Script](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Scripts/PickUpKeyCard.cs)
 
-*Jump to: [Page Top](#Stealth_Project)*,[Settings](#animator-setting),[Summary and Experience](#summary-and-experience)*
+*Jump to: [Page Top](#Stealth_Project),[Settings](#animator-setting),[Summary and Experience](#summary-and-experience)*
 
 ### Robot(Enemy) Setting
 ***Add all necessary scripts for Robot character including audio, collider, rigidbody and adjust the animation Settings. The navigation system is used to set up automatic patrol for the robot within a certain range, if alarm system is triggered (including the robot's vision and hearing, as well as a series of hidden cameras and laser rays in the whole map), the robot will immediately chase and try to shoot player. After being thrown away by the player using the terrain, the robot will start walking patrol again.***
@@ -86,4 +86,4 @@ This was a project I completed independently before joining The Tech Academy, an
 
 In this project, I encountered a lot of difficulties and challenges. For example, the tracking camera was fixed directly on top of the player at a certain distance when the camera followed the player at first, which made me really dizzy. Later, after inquiring some resources, Vector3.LERP was used to make the whole view more natural and solve this problem instantly. 
 
-*Jump to: [Page Top](#Stealth_Project)*,[Settings](#animator-setting),[Summary and Experience](#summary-and-experience)*
+*Jump to: [Page Top](#Stealth_Project),[Settings](#animator-setting),[Summary and Experience](#summary-and-experience)*
