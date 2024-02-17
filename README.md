@@ -53,7 +53,7 @@ The game design and models are not my own creation, the components and terrain a
 
 * [Alarm Trigger Script](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Scripts/AlarmTrigger.cs)
 
-*Jump to: [Page Top](#Stealth_Project)*,[Settings](#animator-setting),[Summary and Experience](#summary-and-experience)*
+*Jump to: [Page Top](#Stealth_Project),[Settings](#animator-setting),[Summary and Experience](#summary-and-experience)*
 
 ### Other Settings
 ***Cameras and lasers are linked to the alarm system, and they display different states depending on whether the alarm is triggered or not. Whether the Exit Gate can be opened based on the player's current location(also must face to the Gate) and whether he has a key card, open and close of all doors are actually moving the coordinates of their models. CameraFollow.cs is written for following the player's view as they move.***
