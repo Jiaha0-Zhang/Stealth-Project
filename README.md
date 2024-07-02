@@ -8,14 +8,14 @@ The game design and models are not my own creation, the components and terrain a
 ## Animator Setting
 ***Sets animations for removable units.***
 
-* [Animator Setting Screenshot](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Images/AnimatorSetting.png)
+![Animator Setting Screenshot](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Images/AnimatorSetting.png)
 
 ## Character Settings
 
 ### Player Setting
 ***Add all necessary scripts for player character including audio, collider, rigidbody and adjust the animation Settings. In PlayerHealth script, the player's health value is set (hidden) and when the player dies, the death audio is triggered and the game restarts. The player's control is mainly in the PlayerMovement script, and the purpose of PlayerBag.cs as a singleton script and PickUpKeyCard.cs are to check if the player has picked up the elevator door key card.***
 
-* [Screenshot of Player](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Images/PlayerSetting.png)
+
 
 * [Player Movement Script](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Scripts/PlayerMovement.cs)
 
@@ -24,6 +24,8 @@ The game design and models are not my own creation, the components and terrain a
 * [Player Bag Script](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Scripts/PlayerBag.cs)
 
 * [Key Card Script](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Scripts/PickUpKeyCard.cs)
+
+![Screenshot of Player](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Images/PlayerSetting.png)
 
 *Jump to: [Page Top](#Stealth_Project),[Settings](#animator-setting),[Summary and Experience](#summary-and-experience)*
 
@@ -45,22 +47,19 @@ The game design and models are not my own creation, the components and terrain a
 ### Alarm System
 ***Use position changes to determine if an alarm system is triggered, if so play alarm audios to alert the player to a dangerous situation.***
 
-* [Alarm Triggers Screenshot](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Images/AlarmTrigger.png)
-
 * [Alarm Light Script](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Scripts/AlarmLight.cs)
 
 * [Alarm System Script](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Scripts/AlarmSystem.cs)
 
 * [Alarm Trigger Script](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Scripts/AlarmTrigger.cs)
 
+![Alarm Triggers Screenshot](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Images/AlarmTrigger.png)
+
 *Jump to: [Page Top](#Stealth_Project),[Settings](#animator-setting),[Summary and Experience](#summary-and-experience)*
 
 ### Other Settings
 ***Cameras and lasers are linked to the alarm system, and they display different states depending on whether the alarm is triggered or not. Whether the Exit Gate can be opened based on the player's current location(also must face to the Gate) and whether he has a key card, open and close of all doors are actually moving the coordinates of their models. CameraFollow.cs is written for following the player's view as they move.***
 
-* [Exit Gate Screenshot](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Images/ExitSetting.png)
-
-* [Laser Switches Screenshot](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Images/SwitchSetting.png)
 
 * [Exit Gate Controller Script](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Scripts/BigDoorController.cs)
 
@@ -75,6 +74,10 @@ The game design and models are not my own creation, the components and terrain a
 * [Lasers Controller Scripts](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Scripts/LaserController.cs)
 
 * [Camera Follow Scripts](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Scripts/CameraFollow.cs)
+
+![Exit Gate Screenshot](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Images/ExitSetting.png)
+
+![Laser Switches Screenshot](https://github.com/Jiaha0-Zhang/Stealth-Project/blob/master/Images/SwitchSetting.png)
 
 ### Game Constants
 ***All the constants used in the scripts are concentrated in this class***
